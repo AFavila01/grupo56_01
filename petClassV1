@@ -1,0 +1,26 @@
+@author Ävila A F
+ */activity store pet's
+ 
+ 
+public class PetManager_G56 {
+// creamos un metodo para imprimir los valores de los atributos
+    public static void ShowPetInformation() {
+        System.out.println("estoy en el metodo 1"); 
+// Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+//definir las variables y datos 
+    private String petName;
+    private char petSex;
+    private int age;
+    private String healthStatus;
+    private String breed;
+    private boolean pedigree;
+    private String color;
+    private String height;
+
+    
+    public static void main(String[] args) {
+        ShowPetInformation();
+        
+    }
+}
