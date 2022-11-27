@@ -1,0 +1,62 @@
+package com.mycompany.petmanager_g56;
+
+/**
+ *
+ * @author Ävila A F
+ */
+public class PetManager_G56 {
+// creamos un metodo para imprimir los valores de los atributos
+    public static void ShowPetInformation() {
+        System.out.println( getPetName() + " es un " + getPetSex() + " de edad: " + getAge() + " esta en estado " // 
+                + getHealthStatus() + " es de raza " + getBreed() + " de color " + getColor() + " " + getHeight());
+    }
+//definir las variables y datos 
+    private static String petName = "dante";
+    private static char petSex = 'm';
+    private static int age = 2;
+    private static String healthStatus = "sano";
+    private static String breed = "buldogg";
+    private static boolean pedigree = true;
+    private static String color = "cafe";
+    private static String height = "raza mediana";
+
+    //creamos las funciones GETTER de cada uno de los atributos 
+    
+    public static String getPetName() {
+        return petName; //funcion pq return
+    }
+
+    public static char getPetSex() {
+        return petSex;
+    }
+
+    public static int getAge() {
+        return age;
+    }
+
+    public static String getHealthStatus() {
+        return healthStatus;
+    }
+
+    public static String getBreed() {
+        return breed;
+    }
+
+    public static boolean isPedigree() {
+        return pedigree;
+    }
+
+    public static String getColor() {
+        return color;
+    }
+
+    public static String getHeight() {
+        return height;
+    }
+
+    
+    public static void main(String[] args) {
+        ShowPetInformation();
+        
+    }
+}
